@@ -1,14 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom';
-
-class HolaMundo extends Component{
-	render () {
-		return (
-			<div>Hola Mundo</div>
-		)
-	}
-};
+import Buscador from './components/buscador';
 
 window.onload = function () {
-	ReactDOM.render(<HolaMundo />, document.getElementById('app'));
+	ReactDOM.render(<Buscador />, document.getElementById('app'));
 };
